@@ -10,6 +10,7 @@ export default function UseEffect(){
     })
 
     return(<div>
+        <h3>useEffect</h3>
         <p>You Clicked <b>{count}</b> the button times</p>
         <button onClick = {()=> setCount(count + 1)}>Click Me</button>
     </div>

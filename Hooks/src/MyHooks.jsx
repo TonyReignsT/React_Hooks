@@ -10,6 +10,7 @@ export default function MyHooks(){
 
     return(
         <div>
+            <h3>useState</h3>
             <p>Name: {name}</p>
             <button onClick = {updateName}>Set Name</button>
         </div>
