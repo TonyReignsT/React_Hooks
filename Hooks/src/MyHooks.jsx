@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import propTypes from 'prop-types'
 
 export default function MyHooks(){
-    //useState
+    //1. useState
     const[name,setName] = useState("");
     const updateName = () => {
       setName("Reigns")  
