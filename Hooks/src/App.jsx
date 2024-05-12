@@ -3,8 +3,8 @@ import UseEffect from './UseEffect.jsx'
 
 function App() {
   return(<div>
-    <MyHooks />
-    <UseEffect />
+    <MyHooks /> <hr />
+    <UseEffect /> <hr />
   </div>
 
   );
