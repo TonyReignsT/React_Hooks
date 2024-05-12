@@ -16,3 +16,7 @@ export default function UseEffect(){
         
     );
 }
+
+UseEffect.propTypes = {
+    count:propTypes.number,
+}
